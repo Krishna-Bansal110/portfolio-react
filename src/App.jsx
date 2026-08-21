@@ -34,7 +34,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter basename="/portfolio-react/">
+    <BrowserRouter basename="/portfolio-react">
       <ScrollToTop />
       <SiteLayout theme={theme} onThemeToggle={toggleTheme}>
         <Routes>
